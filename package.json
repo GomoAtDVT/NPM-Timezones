@@ -1,0 +1,15 @@
+{
+  "name": "npm-timezones",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "countries-and-timezones": "^3.7.2",
+    "dayjs": "^1.11.13"
+  }
+}

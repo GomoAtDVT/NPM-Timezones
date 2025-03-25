@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+    padding: 2rem 4rem;
+    height: 100%;
+    gap: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 30% 20%;
+}
+.name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.change-timezone{
+    all: unset;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.time {
+    font: 800 3rem sans-serif;
+}
+
+.pop-up-container {
+    margin: auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.pop-up-container form :first-child{
+    display: flex;
+    margin: 10px 0;
+    font: 20px sans-serif;
+}
+
+.pop-up-container form{
+    width: 100%;
+}
+
+.timezone-picker{
+    padding: 10px;
+    margin: 0 10px 0 0;
+    width: 70%;
+    cursor: pointer;
+}
+
+.apply-button{
+    padding: 11px 15px;
+    margin: 0 20px 0 0;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.apply-button:active{
+    box-shadow: .5px 1px 1px .5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Gomolemo Motlhamme">
+    <title>Timezone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/utc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/timezone.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/manuelmhtr/countries-and-timezones@latest/dist/index.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+   <main class="main-container">
+        <div class="name-container">
+            <div class="timezone-name">Africa/South Africa</div>
+            <button class="change-timezone" onclick="displayTheModal()" id="show-modal">Change Timezone</button>
+        </div>
+
+        
+        <div class="time">00:00:00</div>
+        
+        <div class="date">Monday, 1 May 2023</div>
+
+
+        <div class="wrapper">
+        <dialog class="pop-up-container"  id="modal-btn">
+            
+            <form action="#" id="form" >
+                    <label for="timezone">Change Timezone:</label>
+                    
+                
+                <select class="timezone-picker" name="Pick a timezone" id="timezone">
+                    <option value="Africa/Johannesburg">Africa/Johannesburg</option>
+                    <option value="America/Los_Angeles">America/Los_Angeles</option>
+                    
+                </select>
+                <button onclick="changeTimezone()" class="apply-button" id="submit">Apply</button>
+            </form>
+        
+        </dialog>
+    </div>
+   </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- <option value="Africa/Lagos">Africa/Lagos</option>
+                    <option value="America/Los_Angeles">America/Los_Angeles</option>
+                    <option value="Africa/Nairobi">Africa/Nairobi</option>
+                    <option value="Africa/Cairo">Africa/Cairo</option>
+                    <option value="Africa/Accra">Africa/Accra</option>
+                    <option value="Africa/Casablanca">Africa/Casablanca</option>
+                    <option value="Africa/Algiers">Africa/Algiers</option>
+                    <option value="Africa/Tunis">Africa/Tunis</option>
+                    <option value="Africa/Windhoek">Africa/Windhoek</option>
+                    <option value="Africa/Ceuta">Africa/Ceuta</option>
+                    <option value="Africa/El_Aaiun">Africa/El_Aaiun</option>
+                    <option value="Africa/Abidjan">Africa/Abidjan</option>
+                    <option value="Africa/Accra">Africa/Accra</option>
+                    <option value="Africa/Bamako">Africa/Bamako</option>
+                    <option value="Africa/Banjul">Africa/Banjul</option>
+                    <option value="Africa/Bissau">Africa/Bissau</option>
+                    <option value="Africa/Conakry">Africa/Conakry</option>
+                    <option value="Africa/Dakar">Africa/Dakar</option>
+                    <option value="Africa/Freetown">Africa/Freetown</option>
+                    <option value="Africa/Lome">Africa/Lome</option>
+                    <option value="Africa/Nouakchott">Africa/Nouakchott</option>
+                    <option value="Africa/Ouagadougou">Africa/Ouagadougou</option>
+                    <option value="Africa/Sao_Tome">Africa/Sao_Tome</option>
+                    <option value="Africa/Timbuktu">Africa/Timbuktu</option>
+                    <option value="Africa/Asmara">Africa/Asmara</option>
+                    <option value="Africa/Addis_Ababa">Africa/Addis_Ababa</option>
+                    <option value="Africa/Asmera">Africa/Asmera</option> -->
